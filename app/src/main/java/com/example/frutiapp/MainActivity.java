@@ -5,11 +5,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
-import android.media.MediaActionSound;
 import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -88,7 +89,16 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
             finish();
         }else{
+            Button btn_jugar = findViewById(R.id.btn_jugar);
+            btn_jugar.setEnabled(false);
+
             Toast.makeText(this, "Primero debes escribir tu nombre", Toast.LENGTH_SHORT).show();
+            new Handler().postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    btn_jugar.setEnabled(true);
+                }
+            }, Toast.LENGTH_LONG + 1500);
 
             et_nombre.requestFocus();
             InputMethodManager imm = (InputMethodManager)getSystemService(this.INPUT_METHOD_SERVICE);

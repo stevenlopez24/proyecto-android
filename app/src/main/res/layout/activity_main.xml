@@ -5,22 +5,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/globos"
-    tools:context=".MainActivity" >
+    tools:context=".MainActivity">
 
-    <ImageView
-        android:id="@+id/imageView_Personaje"
-        android:layout_width="250dp"
-        android:layout_height="250dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_centerInParent="true"
-        android:layout_marginStart="79dp"
-        android:layout_marginTop="36dp"
-        android:layout_marginEnd="81dp"
-        android:layout_marginRight="81dp"
-        app:srcCompat="@drawable/manzana" />
+        <ImageView
+            android:id="@+id/imageView_Personaje"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="79dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="81dp"
+            android:layout_marginRight="81dp"
+            app:srcCompat="@drawable/manzana" />
 
     <EditText
         android:id="@+id/txt_nombre"
@@ -28,8 +28,9 @@
         android:layout_height="50dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="286dp"
+        android:layout_marginBottom="298dp"
         android:background="@drawable/fondoet"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
         android:ems="10"
         android:hint="@string/et_nombre"
         android:inputType="text"
@@ -41,12 +42,12 @@
         android:textSize="24sp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_jugar"
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="209dp"
+        android:layout_marginBottom="234dp"
         android:background="@drawable/fondoboton"
         android:onClick="Jugar"
         android:text="@string/boton"

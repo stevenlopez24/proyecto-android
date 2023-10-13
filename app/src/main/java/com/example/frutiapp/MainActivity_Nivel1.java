@@ -1,17 +1,23 @@
 package com.example.frutiapp;
 
 import androidx.appcompat.app.AppCompatActivity;
+
 import android.content.ContentValues;
 import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.os.Handler;
+import android.text.Editable;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.text.TextWatcher;
+
 
 public class MainActivity_Nivel1 extends AppCompatActivity {
 
@@ -37,6 +43,27 @@ public class MainActivity_Nivel1 extends AppCompatActivity {
         iv_Ados = (ImageView) findViewById(R.id.imageView_NumDos);
         et_respuesta = (EditText) findViewById(R.id.editTextNumber_resultado);
 
+        et_respuesta.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+            }
+
+            @Override
+            public void onTextChanged(CharSequence charSequence, int start, int before, int count) {
+                String inputNumber = charSequence.toString();
+
+                if (inputNumber.length() > 1 && inputNumber.startsWith("0")) {
+                    inputNumber = inputNumber.substring(1);
+                    et_respuesta.setText(inputNumber);
+                    et_respuesta.setSelection(inputNumber.length());
+                }
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+            }
+        });
+
         nombre_jugador = getIntent().getStringExtra("Jugador");
         tv_nombre.setText("Jugador: " + nombre_jugador);
 
@@ -52,6 +79,7 @@ public class MainActivity_Nivel1 extends AppCompatActivity {
 
         NumAleatorio();
     }
+
 
     public void Comparar(View view) {
         String respuesta = et_respuesta.getText().toString();
@@ -99,7 +127,17 @@ public class MainActivity_Nivel1 extends AppCompatActivity {
             NumAleatorio();
 
         } else {
-            Toast.makeText(this, "Escribe tu respuesta", Toast.LENGTH_LONG).show();
+            Button btn_responder = findViewById(R.id.btn_responder);
+            btn_responder.setEnabled(false);
+
+            Toast.makeText(this, "Escribe tu respuesta", Toast.LENGTH_SHORT).show();
+
+            new Handler().postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    btn_responder.setEnabled(true);
+                }
+            }, Toast.LENGTH_LONG + 1500);
         }
     }
 
@@ -144,18 +182,18 @@ public class MainActivity_Nivel1 extends AppCompatActivity {
         }
     }
 
-    public void BaseDeDatos(){
+    public void BaseDeDatos() {
         AdminSQLiteOpenHelper admin = new AdminSQLiteOpenHelper(this, "BD", null, 1);
         SQLiteDatabase BD = admin.getWritableDatabase();
 
         Cursor consulta = BD.rawQuery("select * from puntaje where score = (select max(score) from puntaje)", null);
-        if(consulta.moveToFirst()){
+        if (consulta.moveToFirst()) {
             String temp_nombre = consulta.getString(0);
             String temp_score = consulta.getString(1);
 
             int bestScore = Integer.parseInt(temp_score);
 
-            if(score > bestScore){
+            if (score > bestScore) {
                 ContentValues modificacion = new ContentValues();
                 modificacion.put("nombre", nombre_jugador);
                 modificacion.put("score", score);
@@ -165,7 +203,7 @@ public class MainActivity_Nivel1 extends AppCompatActivity {
 
             BD.close();
 
-        }else{
+        } else {
             ContentValues insertar = new ContentValues();
             insertar.put("nombre", nombre_jugador);
             insertar.put("score", score);
