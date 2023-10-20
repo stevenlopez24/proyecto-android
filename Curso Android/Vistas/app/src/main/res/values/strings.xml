@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Vistas</string>
+    <string name="prueba">Texto de prueba</string>
+    <string name="introduce">Introduce tu nombre</string>
+</resources>
