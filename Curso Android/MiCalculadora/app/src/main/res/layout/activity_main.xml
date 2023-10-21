@@ -6,7 +6,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:padding="16dp">
+    android:paddingHorizontal="@dimen/calc.horizontal.margin"
+    android:paddingVertical="@dimen/calc.vertical.margin">
+
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/tilInput"
@@ -16,7 +18,7 @@
         <EditText
             android:id="@+id/etInput"
             android:layout_width="match_parent"
-            android:layout_height="96dp"
+            android:layout_height="@dimen/calc.input.height"
             android:hint="@string/clac.hint.input"
             android:gravity="end|center_vertical"
             android:inputType="none"
