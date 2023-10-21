@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#E040FB</color>
+    <color name="colorPrimary">#9C27B0</color>
+    <color name="colorPrimaryDark">#7B1FA2</color>
+    <color name="ic_launcher_background">#9C27B0</color>
+    <string name="app_name">FrutiApp</string>
+    <string name="boton">Jugar</string>
+    <string name="boton_suma">Comprobar</string>
+    <string name="et_nombre">¿Cómo te llamas?</string>
+    <string name="et_respuesta">Respuesta</string>
+    <string name="et_vidas">Manzanas: </string>
+    <string name="jugador_nombre">Jugador:</string>
+    <string name="total_score">Score: 0</string>
+    <style name="Base.Theme.FrutiApp" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        
+         <item name="colorPrimary">@color/colorPrimary</item>
+         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+         <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="Theme.FrutiApp" parent="Base.Theme.FrutiApp"/>
+</resources>

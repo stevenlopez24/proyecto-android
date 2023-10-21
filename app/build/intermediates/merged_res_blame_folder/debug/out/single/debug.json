@@ -1,0 +1,246 @@
+[
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-merged_res-31:\\drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-pngs-27:\\drawable-ldpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-merged_res-31:\\drawable_nueve.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-main-33:\\drawable\\nueve.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-merged_res-31:\\drawable_uno.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-main-33:\\drawable\\uno.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-merged_res-31:\\drawable_cero.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-main-33:\\drawable\\cero.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-merged_res-31:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-main-33:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-merged_res-31:\\mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-main-33:\\mipmap-hdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-merged_res-31:\\drawable_wallpaperprincipal.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-main-33:\\drawable\\wallpaperprincipal.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-merged_res-31:\\drawable_fondoboton.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-main-33:\\drawable\\fondoboton.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-merged_res-31:\\drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-pngs-27:\\drawable-xhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-merged_res-31:\\drawable_siete.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-main-33:\\drawable\\siete.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-merged_res-31:\\drawable_sandia.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-main-33:\\drawable\\sandia.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-merged_res-31:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-main-33:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-merged_res-31:\\drawable_fresa.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-main-33:\\drawable\\fresa.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-merged_res-31:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-main-33:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-merged_res-31:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-main-33:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-merged_res-31:\\drawable_tresvidas.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-main-33:\\drawable\\tresvidas.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-merged_res-31:\\drawable_unavida.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-main-33:\\drawable\\unavida.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-merged_res-31:\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-pngs-27:\\drawable-anydpi-v21\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-merged_res-31:\\drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-pngs-27:\\drawable-hdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-merged_res-31:\\drawable_tres.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-main-33:\\drawable\\tres.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-merged_res-31:\\drawable_naranja.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-main-33:\\drawable\\naranja.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-merged_res-31:\\drawable_frutita.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-main-33:\\drawable\\frutita.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-merged_res-31:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-main-33:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-merged_res-31:\\drawable_uva.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-main-33:\\drawable\\uva.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-merged_res-31:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-main-33:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.frutiapp-merged_res-31:/layout_activity_main_nivel2.xml.flat",
+        "source": "com.example.frutiapp-main-33:/layout/activity_main_nivel2.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-merged_res-31:\\drawable_seis.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-main-33:\\drawable\\seis.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-merged_res-31:\\mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-main-33:\\mipmap-mdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-merged_res-31:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-main-33:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-merged_res-31:\\drawable_dos.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-main-33:\\drawable\\dos.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-merged_res-31:\\drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-pngs-27:\\drawable-xxxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-merged_res-31:\\mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-main-33:\\mipmap-xxhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-merged_res-31:\\drawable_cinco.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-main-33:\\drawable\\cinco.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-merged_res-31:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-main-33:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-merged_res-31:\\raw_alphabet_song.mp3.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-main-33:\\raw\\alphabet_song.mp3"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-merged_res-31:\\drawable_ocho.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-main-33:\\drawable\\ocho.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-merged_res-31:\\drawable_fondoet.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-main-33:\\drawable\\fondoet.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-merged_res-31:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-main-33:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-merged_res-31:\\raw_bad.mp3.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-main-33:\\raw\\bad.mp3"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-merged_res-31:\\drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-pngs-27:\\drawable-xxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-merged_res-31:\\drawable_globos.jpg.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-main-33:\\drawable\\globos.jpg"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-merged_res-31:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-main-33:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-merged_res-31:\\drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-pngs-27:\\drawable-mdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-merged_res-31:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-pngs-27:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-merged_res-31:\\mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-main-33:\\mipmap-xhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-merged_res-31:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-main-33:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-merged_res-31:\\drawable_adicion.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-main-33:\\drawable\\adicion.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-merged_res-31:\\raw_goats.mp3.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-main-33:\\raw\\goats.mp3"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-merged_res-31:\\layout_activity_main_nivel1.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-main-33:\\layout\\activity_main_nivel1.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-merged_res-31:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-main-33:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-merged_res-31:\\drawable_manzana.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-main-33:\\drawable\\manzana.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-merged_res-31:\\drawable_resta.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-main-33:\\drawable\\resta.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-merged_res-31:\\mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-main-33:\\mipmap-xxxhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-merged_res-31:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-main-33:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-merged_res-31:\\drawable_cuatro.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-main-33:\\drawable\\cuatro.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-merged_res-31:\\drawable_mango.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-main-33:\\drawable\\mango.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-merged_res-31:\\drawable_multiplicacion.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-main-33:\\drawable\\multiplicacion.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-merged_res-31:\\raw_wonderful.mp3.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-main-33:\\raw\\wonderful.mp3"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-merged_res-31:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-main-33:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-merged_res-31:\\drawable_dosvidas.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-main-33:\\drawable\\dosvidas.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-merged_res-31:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.frutiapp-main-33:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    }
+]
