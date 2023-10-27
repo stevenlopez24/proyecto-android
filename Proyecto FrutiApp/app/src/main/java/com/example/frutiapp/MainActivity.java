@@ -17,7 +17,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-
     private EditText et_nombre;
     private ImageView iv_personaje;
     private TextView tv_bestScore;
@@ -38,19 +37,19 @@ public class MainActivity extends AppCompatActivity {
         getSupportActionBar().setIcon(R.mipmap.ic_launcher);
 
         int id;
-        if(num_aleatorio == 0 || num_aleatorio == 10){
+        if (num_aleatorio == 0 || num_aleatorio == 10) {
             id = getResources().getIdentifier("mango", "drawable", getPackageName());
             iv_personaje.setImageResource(id);
-        }else if(num_aleatorio == 1 || num_aleatorio == 9){
+        } else if (num_aleatorio == 1 || num_aleatorio == 9) {
             id = getResources().getIdentifier("fresa", "drawable", getPackageName());
             iv_personaje.setImageResource(id);
-        }else if(num_aleatorio == 2 || num_aleatorio == 8){
+        } else if (num_aleatorio == 2 || num_aleatorio == 8) {
             id = getResources().getIdentifier("manzana", "drawable", getPackageName());
             iv_personaje.setImageResource(id);
-        }else if(num_aleatorio == 3 || num_aleatorio == 7){
+        } else if (num_aleatorio == 3 || num_aleatorio == 7) {
             id = getResources().getIdentifier("sandia", "drawable", getPackageName());
             iv_personaje.setImageResource(id);
-        }else if(num_aleatorio == 4 || num_aleatorio == 5 || num_aleatorio == 6){
+        } else if (num_aleatorio == 4 || num_aleatorio == 5 || num_aleatorio == 6) {
             id = getResources().getIdentifier("uva", "drawable", getPackageName());
             iv_personaje.setImageResource(id);
         }
@@ -61,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
         Cursor consulta = BD.rawQuery(
                 "select * from puntaje where score = (select max(score) from puntaje)", null);
 
-        if(consulta.moveToFirst()){
+        if (consulta.moveToFirst()) {
             String temp_nombre = consulta.getString(0);
             String temp_score = consulta.getString(1);
             tv_bestScore.setText("Record: " + temp_score + " de " + temp_nombre);
@@ -76,10 +75,10 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void Jugar(View view){
+    public void Jugar(View view) {
         String nombre = et_nombre.getText().toString();
 
-        if(!nombre.equals("")){
+        if (!nombre.equals("")) {
             mp.stop();
             mp.release();
 
@@ -88,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
             intent.putExtra("Jugador", nombre);
             startActivity(intent);
             finish();
-        }else{
+        } else {
             Button btn_jugar = findViewById(R.id.btn_jugar);
             btn_jugar.setEnabled(false);
 
@@ -101,7 +100,7 @@ public class MainActivity extends AppCompatActivity {
             }, Toast.LENGTH_LONG + 1500);
 
             et_nombre.requestFocus();
-            InputMethodManager imm = (InputMethodManager)getSystemService(this.INPUT_METHOD_SERVICE);
+            InputMethodManager imm = (InputMethodManager) getSystemService(this.INPUT_METHOD_SERVICE);
             imm.showSoftInput(et_nombre, InputMethodManager.SHOW_IMPLICIT);
         }
     }
