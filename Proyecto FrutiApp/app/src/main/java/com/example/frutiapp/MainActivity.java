@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        System.out.println("pruba");
         et_nombre = (EditText) findViewById(R.id.txt_nombre);
         iv_personaje = (ImageView) findViewById(R.id.imageView_Personaje);
         tv_bestScore = (TextView) findViewById(R.id.textView_BestScore);
